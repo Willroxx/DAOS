@@ -1,4 +1,5 @@
-﻿using Ardalis.Specification;
+﻿using Aplicacion.Feautres.Libros.Consultas.Especificacion;
+using Ardalis.Specification;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Aplicacion.Interfaces
 {
     public interface IRepositorioAsincrono<T> : IRepositoryBase<T> where T : class
     {
-
+        
     }
     public interface ILeerRepositorioAsincrono<T> : IReadRepositoryBase<T> where T : class
     {
